@@ -4,4 +4,11 @@
 // but you're not, so you'll write it from scratch:
 var parseJSON = function(json) {
   // your code goes here
+  console.log(json);
+  if (typeof json === 'string'){
+    var stringJSON = json.split('');
+    console.log(stringJSON.join(','))
+  };
+  console.log(stringJSON);
+
 };
